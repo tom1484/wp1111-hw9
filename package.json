@@ -1,0 +1,14 @@
+{
+  "name": "hw8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd frontend && yarn start",
+    "server": "cd backend && yarn server"
+  },
+  "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-ws": "^5.11.2"
+  }
+}

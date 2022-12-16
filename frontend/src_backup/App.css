@@ -1,0 +1,85 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 500px;
+  margin: auto;
+}
+
+.App-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-title h1 {
+  margin: 0;
+  margin-right: 20px;
+  font-size: 3em;
+}
+
+.App-messages {
+  width: 100%;
+  height: 100%;
+  /* background: #eeeeee52; */
+  /* border-radius: 10px; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-self: flex-start; */
+  /* flex-grow: 0; */
+  overflow: auto;
+}
+
+.ant-tabs,
+.ant-tabs-content-holder,
+.ant-tabs-content,
+.ant-tabs-tabpane {
+  height: 100%;
+}
+
+.App-message-container {
+  /* position: relative; */
+  width: 100%;
+  height: fit-content;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.App-message-left {
+  background: #77777740;
+  border-radius: 5px;
+  width: fit-content;
+
+  padding-left: 6px;
+  padding-right: 6px;
+
+  margin: 0;
+}
+
+.App-message-right {
+  background: #77777740;
+  border-radius: 5px;
+  width: fit-content;
+
+  padding-left: 6px;
+  padding-right: 6px;
+
+  margin: auto;
+  margin-right: 0;
+}
+
+.App-messages-container {
+  width: 100%;
+  height: 300px;
+  background: #eeeeee52;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
