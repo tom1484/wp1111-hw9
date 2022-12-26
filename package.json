@@ -15,7 +15,7 @@
     "ws": "^8.11.0"
   },
   "scripts": {
-    "server": "nodemon src/index.js --ext js --watch src --exec babel-node"
+    "start": "nodemon src/index.js --ext js --watch src --exec babel-node"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
