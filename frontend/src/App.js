@@ -1,11 +1,8 @@
 import './App.css';
-import { Button, Input, message, Tabs, Modal, Row, Space } from 'antd';
+import { Button, Input, message, Tabs, Modal, Space } from 'antd';
 
 import { useState, useEffect } from 'react';
 import useChat from './hooks/useChat';
-
-import { useQuery, useMutation, useSubscription } from '@apollo/client';
-import { CHATROOM_QUERY } from './graphql/queries';
 
 const localStorage = window.localStorage;
 
